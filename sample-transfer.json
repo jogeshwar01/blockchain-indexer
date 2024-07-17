@@ -1,0 +1,59 @@
+{
+  "accountData": [
+    {
+      "account": "4zstrJxn9K5EkUtXqzcag3E518jgwfnowSUU6aPqfobD",
+      "nativeBalanceChange": -200015000,
+      "tokenBalanceChanges": []
+    },
+    {
+      "account": "Htg9cXNdSrP37Q1ZJqsewMoMTdBfkrRHYYm3F1EJj5Uk",
+      "nativeBalanceChange": 200000000,
+      "tokenBalanceChanges": []
+    },
+    {
+      "account": "ComputeBudget111111111111111111111111111111",
+      "nativeBalanceChange": 0,
+      "tokenBalanceChanges": []
+    },
+    {
+      "account": "11111111111111111111111111111111",
+      "nativeBalanceChange": 0,
+      "tokenBalanceChanges": []
+    }
+  ],
+  "description": "4zstrJxn9K5EkUtXqzcag3E518jgwfnowSUU6aPqfobD transferred 0.2 SOL to Htg9cXNdSrP37Q1ZJqsewMoMTdBfkrRHYYm3F1EJj5Uk.",
+  "events": {},
+  "fee": 15000,
+  "feePayer": "4zstrJxn9K5EkUtXqzcag3E518jgwfnowSUU6aPqfobD",
+  "instructions": [
+    {
+      "accounts": [],
+      "data": "3Sy41WEwNLnT",
+      "innerInstructions": [],
+      "programId": "ComputeBudget111111111111111111111111111111"
+    },
+    {
+      "accounts": [
+        "4zstrJxn9K5EkUtXqzcag3E518jgwfnowSUU6aPqfobD",
+        "Htg9cXNdSrP37Q1ZJqsewMoMTdBfkrRHYYm3F1EJj5Uk"
+      ],
+      "data": "3Bxs3zz3fjzUYuEP",
+      "innerInstructions": [],
+      "programId": "11111111111111111111111111111111"
+    }
+  ],
+  "nativeTransfers": [
+    {
+      "amount": 200000000,
+      "fromUserAccount": "4zstrJxn9K5EkUtXqzcag3E518jgwfnowSUU6aPqfobD",
+      "toUserAccount": "Htg9cXNdSrP37Q1ZJqsewMoMTdBfkrRHYYm3F1EJj5Uk"
+    }
+  ],
+  "signature": "5vsLzMxnG9BvSZge6qTmKpKLz1CPsnc9rn2V4j1NY4wwMKRBpoc8gE3dTcXEemMHCrAbr8dAGva7MGfcFZBoiov8",
+  "slot": 311608677,
+  "source": "SYSTEM_PROGRAM",
+  "timestamp": 1720958844,
+  "tokenTransfers": [],
+  "transactionError": null,
+  "type": "TRANSFER"
+}
